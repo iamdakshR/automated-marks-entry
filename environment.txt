@@ -1,0 +1,24 @@
+# AI Marks Entry System - Environment Dependencies
+
+# Python backend dependencies
+fastapi
+uvicorn[standard]
+pandas
+openpyxl
+python-multipart
+requests
+playwright
+
+# Install with:
+# pip install -r environment.txt
+#
+# After installing Playwright:
+# playwright install chromium
+
+# Frontend dependencies
+# These are managed separately by npm/package.json:
+# react
+# react-dom
+# vite
+# typescript
+# @vitejs/plugin-react
